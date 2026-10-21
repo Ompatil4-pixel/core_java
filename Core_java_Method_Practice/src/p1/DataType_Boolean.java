@@ -1,0 +1,26 @@
+package p1;
+
+public class DataType_Boolean {
+	/*-- boolean type of variable
+	 Calling method and variable from main method --*/
+	
+	boolean a = true;
+	
+	void check()
+	{
+	  if (a == true)
+	{
+	  a = false;
+	  System.out.println("The Boolean Value is : " + a);
+	}
+	
+	}
+	
+	public static void main(String args[]) {
+	DataType_Boolean obj = new DataType_Boolean();
+	obj.check();
+ 
+	System.out.println(obj.a);
+}
+	
+}
